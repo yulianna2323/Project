@@ -1,0 +1,13 @@
+1. Main screen displays two grids "Меню" and "Счет":
+1.1. "Меню" grid displays six categories of  dishes  and drinks: "Салаты", "Мясные блюда", "Гарниры", "Закуски", "Десерты" and "Напитки".
+    1.1.1. System should display dishes/drinks when click on appropriate category.
+       1.1.1.1. System should display description and price of a dish/dessert/drink when focus cursor over one. System should add a dish/drink by clicking on it to "Счет" grid.
+1.2. "Счет" grid contains "Наименование", "Кол-во", "Цена" and "Итого" columns,  "Сохранить" and "Удалить" buttons and "Всего" field:
+    1.2.1. System should displays name of a dish/drink in "Наименование" column,  which is selected from "Меню" grid.  
+    1.2.2. System should displays number of the same dish/drink in "Кол-во" column.
+    1.2.3. System should displays price by each dish/drink in "Цена" column
+    1.2.4. System should displays total price by each dish/drink in " Итого" column.
+       1.2.4.1. System should display the delete button "X" for each added dish/drink. When delete button "X" is pressed system should delete dish/drink. 
+    1.2.5. System should save the bill when "Сохранить" button is pressed and write down it to file orders.json.
+    1.2.6. System should delete whole order when " Удалить " button is pressed and delete the bill from file orders.json.
+    1.2.7. System should display total price by order in "Всего" field.
